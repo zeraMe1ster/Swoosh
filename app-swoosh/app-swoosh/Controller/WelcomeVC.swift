@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeVC: UIViewController {
 
     @IBOutlet weak var swoosh: UIImageView!
     @IBOutlet weak var bgImg: UIImageView!
@@ -24,8 +24,9 @@ class ViewController: UIViewController {
         
     }
     
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
+    @IBAction func unwindFromSkillVC(unwindSegue: UIStoryboardSegue){
+//        unwindFromSKilVC doesnt matter what u type there or unwindSegue the exit part will recognize automatically.
+        
     }
 
 
