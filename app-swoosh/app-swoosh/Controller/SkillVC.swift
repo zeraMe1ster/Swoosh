@@ -14,7 +14,7 @@ class SkillVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(player.desiredLeague)
+//        print(player.desiredLeague)
         
     }
     
