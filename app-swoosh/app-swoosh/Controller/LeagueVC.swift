@@ -13,6 +13,9 @@ class LeagueVC: UIViewController {
     var player : Player!
     
     @IBOutlet weak var nextBtn: BorderButton!
+    @IBOutlet weak var mensBtn: BorderButton!
+    @IBOutlet weak var coedBtn: BorderButton!
+    @IBOutlet weak var womensBtn: BorderButton!
     
     
     override func viewDidLoad() {
@@ -29,6 +32,7 @@ class LeagueVC: UIViewController {
  
     
     @IBAction func onMensTapped(_ sender: Any) {
+        mensBtn.backgroundColor = UIColor.red
         selectLeague(leagueType: "mens")
     }
     
